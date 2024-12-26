@@ -30,3 +30,5 @@ router.post('/login', async (req, res) => {
     res.status(400).send({ message: 'Error logging in user' });
   }
 });
+module.exports = router;
+```
